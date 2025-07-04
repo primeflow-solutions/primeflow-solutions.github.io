@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: linear-gradient(120deg, #1e40e9 0%, #f7fafd 100%);
+  min-height: 100vh;
+  color: #22324d;
+}
+
+.central-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-area {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 36px;
+}
+
+.pf-logo {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #1e40e9; /* Azul mais suave e harmônico com o fundo */
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  display: block;
+  font-size: 1rem;
+  color: #41597a;
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+main {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.construction-box, .about-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 18px rgba(30,64,128,0.08);
+  padding: 36px 28px;
+  margin-bottom: 36px;
+  width: 100%;
+  text-align: center;
+}
+
+.construction-box h1 {
+  font-size: 2rem;
+  color: #1e40e9;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.construction-box p {
+  font-size: 1.09rem;
+  color: #41597a;
+  margin-bottom: 20px;
+}
+
+.modules-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.modules-list li {
+  font-size: 1.08rem;
+  margin-bottom: 8px;
+  color: #22324d;
+  font-weight: 500;
+}
+
+.soon-message {
+  display: inline-block;
+  background: #1e40e9;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+
+.about-box h2 {
+  font-size: 1.3rem;
+  color: #1e40e9;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.about-box p {
+  color: #41597a;
+  margin-bottom: 14px;
+  font-size: 1rem;
+}
+
+.contact-info a {
+  color: #1e40e9;
+  text-decoration: none;
+  font-weight: 600;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  color: #8aa0b8;
+  font-size: 0.98rem;
+  padding: 22px 0 18px 0;
+  margin-top: auto;
+  background: #fff;
+  box-shadow: 0 -1px 8px rgba(30,64,128,.03);
+}
+
+@media (max-width: 600px) {
+  .central-container {
+    padding: 0 0 30px 0;
+  }
+  main {
+    max-width: 98vw;
+  }
+  .construction-box, .about-box {
+    padding: 24px 8px;
+  }
+  .brand-area {
+    margin-top: 14px;
+    margin-bottom: 22px;
+  }
+}
